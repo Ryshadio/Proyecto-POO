@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -12,12 +13,14 @@ public class Player : MonoBehaviour
     Animator animator;
     
     
+    
     void Start()
     {
         rigidBody = gameObject.GetComponent<Rigidbody2D>();
         col = gameObject.GetComponent<Collider2D>();
         spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
         animator = gameObject.GetComponent<Animator>();
+        
     }
     
     // Update is called once per frame
@@ -65,5 +68,14 @@ public class Player : MonoBehaviour
             animator.SetBool("isGrounded", false);
         }
     }
-    
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.gameObject.CompareTag("Enemy"))
+        {
+            
+            Destroy(collision.collider.gameObject);
+            SceneManager.LoadScene("Battle", LoadSceneMode.Additive); 
+        }
+    }
 }

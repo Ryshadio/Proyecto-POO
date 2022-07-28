@@ -1,0 +1,26 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
+
+public class PlayerBattleHUD : MonoBehaviour
+{
+
+    public TextMeshProUGUI nameText;
+    public Slider hpSlider;
+
+    public void SetHUD(Unit unit)
+    {
+        nameText.text = unit.unitName;
+        hpSlider.maxValue = unit.maxHP;
+        hpSlider.value = PlayerPrefs.GetInt("currentHP");
+
+    }
+
+    public void SetHP(int hp)
+    {
+        hpSlider.value = hp;
+    }
+
+}
