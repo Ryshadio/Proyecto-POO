@@ -16,7 +16,18 @@
 
 ## Funcionamiento del Juego
 
-- Este es un juego de batalla por turno de un solo jugador vs el mismo programa, tiene un menú principal en donde uno puede elegir comenzar a juagr, opciones del juego (como cambiar el volumen del mismo) y la opcion de salir del juego, cuando se le de a iniciar el jugador se puede ir moviendo por la pantalla con las flechas del teclado y saltando mediante la tecla *espacio*, si llegua a toparse con un enemigo, comienza la pelea, en la que cada contendiente se irá atacando y quitando puntos de salud a cada uno.
+- Este es un juego de batalla por turno de un solo jugador vs el mismo programa, tiene un menú principal en donde uno puede elegir comenzar a juagr, opciones del juego (como cambiar el volumen del mismo) y la opcion de salir del juego, 
+
+![image](https://user-images.githubusercontent.com/101778855/181620362-44a4a53b-239e-4972-8857-894322acdde2.png)
+
+- Cuando se le de a iniciar el jugador se puede ir moviendo por la pantalla con las flechas del teclado y saltando mediante la tecla *espacio*
+
+![image](https://user-images.githubusercontent.com/101778855/181620474-3f1c06d3-bf3d-4eaa-ade7-ba5327bce18e.png)
+
+- si llegua a toparse con un enemigo, comienza la pelea, en la que cada contendiente se irá atacando y quitando puntos de salud a cada uno.
+
+![image](https://user-images.githubusercontent.com/101778855/181620555-bb1b9684-f0aa-4e5f-a587-6b6c17de9efa.png)
+
 - En esta versión del juego, cuando uno de los dos peleadores se quede sin puntos de salud el juego se cerrará automaticamente y para volver a jugar se deberá volver a abrir el archivo *My Proyect.exe* 
 
 ## Apartado Programatico
