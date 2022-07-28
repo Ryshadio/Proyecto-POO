@@ -1,3 +1,0 @@
-El siguiente proyecto consta de la creacion de un videojuego en la plataforma Unity, este juego pertenece a un innovador genero que mezcla el estilo de plataformas con el combate por turnos. Actualmente, nos encontramos en la fase final de desarrollo, por lo que esta version es aun una beta de lo que sera el juego completo. Para poder usar este juego solamente... 
-
-
