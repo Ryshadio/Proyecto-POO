@@ -11,14 +11,10 @@ El siguiente proyecto consta de la creacion de un videojuego en la plataforma Un
 
 Para aquellos que quieran editar este juego de codigo abierto necesitan unity en su version 2022.1.4f1, en esta aplicacion podran editar tanto las escenas como los scripts que contienen los distintos objetos presentes en el juego, posterior a eso para jugar el juego desde Unity puedes apretar el boton play que aparece en la parte superior o hacer una build para tener el archivo exe en tu escritorio. Por otro lado, si lo que quieres es solamente jugar puedes abrir el siguiente link:
 
-https://drive.google.com/file/d/1pAgQdQH_FiZLykebaLivSGt4LN2x9p_P/view?usp=sharing
+[Link Descarga Juego](https://drive.google.com/file/d/1pAgQdQH_FiZLykebaLivSGt4LN2x9p_P/view?usp=sharing)
 
 Aquí descargarás una carpeta .zip llamada juego, deberá ser descomprimida y finalmente para ejecutar el juego se debe abrir el archivo llamado **My Proyect.exe**
 
 ## Apartado Programatico
 
 El juego fue diseñado en unity en su version 2022.1.4f1, en lenguaje c# y el diagrama de clases utilizado fue el siguiente: 
-
-
-
-
