@@ -36,6 +36,9 @@
 
 ![image](https://user-images.githubusercontent.com/101778855/181617480-35f31652-b503-4a90-948b-1411c02084e6.png)
 
+## Orientación a Objetos.
+
+- Este juego esta programado siguiendo al 100% la lógica de Programación Orientada a Objetos, ya que si se accede el repositorio, especialmente el apartado de [scripts](https://github.com/Ryshadio/Proyecto-POO/tree/main/Assets/Scripts),  se ejemplifica el uso de esta lógica  si abrimos el archivo [Battlesystem](https://github.com/Ryshadio/Proyecto-POO/blob/main/Assets/Scripts/BattleSystem.cs), donde existen objetos de las clases BattleEnemy y BattlePlayer. Esta interacción entre objetos de distintas clases permite el correcto funcionamiento del programa.
 
 ### Integrantes
 
