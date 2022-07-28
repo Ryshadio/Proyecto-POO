@@ -10,25 +10,33 @@
 
 - Para aquellos que quieran editar este juego de codigo abierto necesitan unity en su version 2022.1.4f1, en esta aplicacion podran editar tanto las escenas como los scripts que contienen los distintos objetos presentes en el juego, posterior a eso para jugar el juego desde Unity puedes apretar el boton play que aparece en la parte superior o hacer una build para tener el archivo exe en tu escritorio. Por otro lado, si lo que quieres es solamente jugar puedes abrir el siguiente link:
 
-[Link Descarga Juego](https://drive.google.com/file/d/1pAgQdQH_FiZLykebaLivSGt4LN2x9p_P/view?usp=sharing)
+[Link Descarga Juego](https://drive.google.com/file/d/1dZ1KWNkdY-nesyGciscVDIATMZN_Y8xV/view)
 
 - Aquí descargarás una carpeta .zip llamada juego, deberá ser descomprimida y finalmente para ejecutar el juego se debe abrir el archivo llamado **My Proyect.exe**
 
 ## Funcionamiento del Juego
 
-- Este es un juego de batalla por turno de un solo jugador vs el mismo programa, tiene un menú principal en donde uno puede elegir comenzar a juagr, opciones del juego (como cambiar el volumen del mismo) y la opcion de salir del juego, 
+- Este es un juego de batalla por turno de un solo jugador vs el mismo programa, tiene un menú principal en donde uno puede elegir comenzar a juagr, opciones del juego (como cambiar el volumen del mismo) y la opcion de salir del juego.
 
 ![image](https://user-images.githubusercontent.com/101778855/181620362-44a4a53b-239e-4972-8857-894322acdde2.png)
 
-- Cuando se le de a iniciar el jugador se puede ir moviendo por la pantalla con las flechas del teclado y saltando mediante la tecla *espacio*
+- Cuando se le de a iniciar el jugador se puede ir moviendo por la pantalla con las flechas del teclado y saltando mediante la tecla *espacio*.
 
-![image](https://user-images.githubusercontent.com/101778855/181620474-3f1c06d3-bf3d-4eaa-ade7-ba5327bce18e.png)
+![image](https://user-images.githubusercontent.com/101778855/181627075-a8e20096-5e3d-4dbc-988e-b2706c3ba546.png)
 
-- si llegua a toparse con un enemigo, comienza la pelea, en la que cada contendiente se irá atacando y quitando puntos de salud a cada uno.
+- si llega a toparse con un enemigo, comienza la pelea, en la que cada contendiente se irá atacando y quitando puntos de salud a cada uno, para evitar que el jugador quede sin vida rápidamente existe la opción de curarse.
 
 ![image](https://user-images.githubusercontent.com/101778855/181620555-bb1b9684-f0aa-4e5f-a587-6b6c17de9efa.png)
 
-- En esta versión del juego, cuando uno de los dos peleadores se quede sin puntos de salud el juego se cerrará automaticamente y para volver a jugar se deberá volver a abrir el archivo *My Proyect.exe* 
+- En caso de que el jugador quede sin puntos de vida, morirá y el juego terminará haciendo que se salga del mismo.
+
+![image](https://user-images.githubusercontent.com/101778855/181626011-63927a6d-ae89-4aef-9d4b-d735f070bde6.png)
+
+- Para ganar el nivel el jugador debe llegar hasta la nave final, para esto el jugador puede o no batallar con todos los enemigos con el camino.
+
+![image](https://user-images.githubusercontent.com/101778855/181627140-3ee2d207-e697-461c-bb49-98b0ec21dd6e.png)
+
+![image](https://user-images.githubusercontent.com/101778855/181627180-798e3b61-777f-4649-a694-27f44f272b8f.png)
 
 ## Apartado Programatico
 
