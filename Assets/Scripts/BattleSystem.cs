@@ -107,11 +107,14 @@ public class BattleSystem : MonoBehaviour
         {
             dialogueText.text = "Has ganado el combate...";
             SceneManager.UnloadSceneAsync("Battle");
+            
+
         } else if(state == BattleState.LOST)
+
         {
             dialogueText.text = "Has muerto...";
             SceneManager.UnloadSceneAsync("Battle");
-            SceneManager.LoadScene("Creditos");
+            SceneManager.LoadScene("Perdio");
         }
 
         yield return new WaitForSeconds(2f);
