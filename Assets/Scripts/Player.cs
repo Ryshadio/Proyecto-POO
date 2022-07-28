@@ -76,6 +76,13 @@ public class Player : MonoBehaviour
             
             Destroy(collision.collider.gameObject);
             SceneManager.LoadScene("Battle", LoadSceneMode.Additive); 
+        }else if (collision.collider.gameObject.CompareTag("nave"))
+        {
+            SceneManager.LoadScene("Gano");
         }
     }
+
+
+
+
 }

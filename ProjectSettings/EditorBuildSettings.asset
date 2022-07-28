@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Perdio.unity
     guid: 29afbe1d4aab40d4c9b237380d060285
+  - enabled: 1
+    path: Assets/Scenes/Gano.unity
+    guid: 3e5e805dc6c870644bb0240a52ba2b51
   m_configObjects: {}

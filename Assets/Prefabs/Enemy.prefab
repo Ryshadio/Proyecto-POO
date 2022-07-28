@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   unitName: Slime
-  damage: 50
+  damage: 10
   maxHP: 20
   currentHP: 20
 --- !u!1 &9005630890110246446
