@@ -39,7 +39,7 @@
 
 ## Apartado Programatico
 
--El juego fue diseñado en unity en su version 2022.1.4f1, en lenguaje c# y el diagrama de clases utilizado fue el siguiente: 
+- El juego fue diseñado en unity en su version 2022.1.4f1, en lenguaje c# y el diagrama de clases utilizado fue el siguiente: 
 
 ![image](https://user-images.githubusercontent.com/101778855/181617480-35f31652-b503-4a90-948b-1411c02084e6.png)
 
@@ -49,8 +49,8 @@
 
 ### Integrantes
 
-- Tabata Ahumada 202030514-5
-- Rodrigo Contreras 202010519-7
-- Diego Flores 202004542-9
-- Álvaro Pozo 202030535-8
-- Leonardo Ponce 202030531-5
+- Tabata Ahumada &emsp;&emsp;&nbsp;202030514-5
+- Rodrigo Contreras &emsp;&ensp;202010519-7
+- Diego Flores &emsp;&emsp;&emsp;&emsp;202004542-9
+- Álvaro Pozo &emsp;&emsp;&emsp;&emsp;&nbsp;202030535-8
+- Leonardo Ponce &emsp;&emsp;&nbsp;202030531-5
