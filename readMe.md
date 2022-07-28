@@ -13,6 +13,8 @@ Para aquellos que quieran editar este juego de codigo abierto necesitan unity en
 
 https://drive.google.com/file/d/1pAgQdQH_FiZLykebaLivSGt4LN2x9p_P/view?usp=sharing
 
+Aquí descargarás una carpeta .zip llamada juego, deberá ser descomprimida y finalmente para ejecutar el juego se debe abrir el archivo llamado **My Proyect.exe**
+
 ## Apartado Programatico
 
 El juego fue diseñado en unity en su version 2022.1.4f1, en lenguaje c# y el diagrama de clases utilizado fue el siguiente: 
