@@ -1,10 +1,9 @@
 
-# Proyecto Poo
+# Proyecto THE BREAD
 
 - El siguiente proyecto consta de la creacion de un videojuego en la plataforma Unity, este juego pertenece a un innovador genero que mezcla el estilo de plataformas con el combate por turnos. Actualmente, nos encontramos en la fase final de desarrollo, por lo que esta version es aun una beta de lo que sera el juego completo. El codigo fuente del programa lo puedes encontrar en el siguiente repositorio:
 
 [Repositorio](https://github.com/Ryshadio/Proyecto-POO)
-
 
 ## Uso e Instalación
 
@@ -50,8 +49,8 @@
 
 ### Integrantes
 
-- Tabata Ahumada        202030514-5
-- Rodrigo Contreras     202010519-7
-- Diego Flores          202004542-9
-- Álvaro Pozo           202030535-8
-- Leonardo Ponce        202030531-5
+- Tabata Ahumada 202030514-5
+- Rodrigo Contreras 202010519-7
+- Diego Flores 202004542-9
+- Álvaro Pozo 202030535-8
+- Leonardo Ponce 202030531-5
