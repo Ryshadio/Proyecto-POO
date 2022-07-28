@@ -8,19 +8,22 @@ public class Player : MonoBehaviour
     [SerializeField] private float moveSpeed = 60;
     [SerializeField] private float jumpForce = 100;
     Rigidbody2D rigidBody;
-    Collider2D col;
+    public Collider2D col;
     SpriteRenderer spriteRenderer;
     Animator animator;
-    
-    
-    
+    Transform transf;
+    public bool inBattle;
+
+
     void Start()
     {
         rigidBody = gameObject.GetComponent<Rigidbody2D>();
         col = gameObject.GetComponent<Collider2D>();
         spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
         animator = gameObject.GetComponent<Animator>();
-        
+        transf = gameObject.GetComponent<Transform>();
+        PlayerPrefs.SetInt("currentHP", 50);
+
     }
     
     // Update is called once per frame
@@ -30,6 +33,8 @@ public class Player : MonoBehaviour
         jump();
         CheckGround();
     }
+
+    
 
     private void move()
     {
@@ -71,10 +76,11 @@ public class Player : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.gameObject.CompareTag("Enemy"))
+        if (collision.collider.gameObject.CompareTag("Enemy") && inBattle == false)
         {
             
             Destroy(collision.collider.gameObject);
+            inBattle = true;
             SceneManager.LoadScene("Battle", LoadSceneMode.Additive); 
         }else if (collision.collider.gameObject.CompareTag("nave"))
         {

@@ -28,7 +28,7 @@ public class BattleSystem : MonoBehaviour
     public TextMeshProUGUI dialogueText;
     public EnemyBattleHUD enemyBattleHUD;
     public PlayerBattleHUD playerBattleHUD;
-
+    
 
 
    
@@ -107,7 +107,7 @@ public class BattleSystem : MonoBehaviour
         {
             dialogueText.text = "Has ganado el combate...";
             SceneManager.UnloadSceneAsync("Battle");
-            
+            GameObject.Find("Player").GetComponent<Player>().inBattle = false;
 
         } else if(state == BattleState.LOST)
 
