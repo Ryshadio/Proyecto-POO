@@ -39,7 +39,7 @@
 
 ## Apartado Programatico
 
--El juego fue diseñado en unity en su version 2022.1.4f1, en lenguaje c# y el diagrama de clases utilizado fue el siguiente: 
+- El juego fue diseñado en unity en su version 2022.1.4f1, en lenguaje c# y el diagrama de clases utilizado fue el siguiente: 
 
 ![image](https://user-images.githubusercontent.com/101778855/181617480-35f31652-b503-4a90-948b-1411c02084e6.png)
 
