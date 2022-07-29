@@ -9,7 +9,7 @@
 
 - Para aquellos que quieran editar este juego de codigo abierto necesitan unity en su version 2022.1.4f1, en esta aplicacion podran editar tanto las escenas como los scripts que contienen los distintos objetos presentes en el juego, posterior a eso para jugar el juego desde Unity puedes apretar el boton play que aparece en la parte superior o hacer una build para tener el archivo exe en tu escritorio. Por otro lado, si lo que quieres es solamente jugar puedes abrir el siguiente link:
 
-[Link Descarga Juego](https://drive.google.com/file/d/1dZ1KWNkdY-nesyGciscVDIATMZN_Y8xV/view)
+[Link Descarga Juego](https://drive.google.com/file/d/12RTyH1eq37Egi1OEr8_cEEHi8v68iaF1/view)
 
 - Aquí descargarás una carpeta .zip llamada juego, deberá ser descomprimida y finalmente para ejecutar el juego se debe abrir el archivo llamado **My Proyect.exe**
 
